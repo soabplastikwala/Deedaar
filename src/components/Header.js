@@ -29,14 +29,14 @@ const Header = () => {
   return (
     <header className='fixed w-full px-[30px] lg:px-[100px] z-30 h-[100px] lg:h-[140px] flex items-center'>
       <div className='flex flex-col lg:flex-row lg:items-center w-full justify-between'>
-        <Link to={'/'} className='max-w-[180px]'>
+        <Link to={'/Deedar.git'} className='max-w-[180px]'>
           <img src={Logo} alt='' />
         </Link>
 
         <nav className='hidden lg:flex gap-x-14 font-semibold'>
           
             <Link
-              to='/'
+              to='/Deedar.git'
               style={{
                 ...linkStyle,
                 ...(hoveredLinkIndex === 0 ? linkHoverStyle : {}),

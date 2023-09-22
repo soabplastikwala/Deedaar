@@ -15,7 +15,7 @@ const AnimRoutes = () => {
   return (
     <AnimatePresence initial={true} exitBeforeEnter>
       <Routes location={location}>
-        <Route path="/" element={<Home />} />
+        <Route path="/Deedar.git" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/contact" element={<Contact />} />
